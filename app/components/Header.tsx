@@ -27,7 +27,7 @@ export default function Navbar() {
           </div>
           <div>
             <p className="text-[#3f2540] font-semibold text-sm leading-tight">Доктор Тимур</p>
-            <p className="text-[#8b6788] text-[10px] leading-tight">АҚШда оилавий доктор · Семизлик бўйича мутахассис</p>
+            <p className="text-[#8b6788] text-[10px] leading-tight">АҚШда оилавий доктор</p>
           </div>
         </div>
 
