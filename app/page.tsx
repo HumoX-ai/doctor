@@ -4,16 +4,14 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Header";
 import Hero from "./components/Hero";
 import Problem from "./components/Problem";
-import Quiz from "./components/Quiz";
 import VideoOffer from "./components/VideoOffer";
 
 export default function Home() {
   return (
-    <main className="bg-[#070D1F]">
+    <main className="bg-[#fff7fc]">
       <Navbar />
       <Hero />
       <Problem />
-      <Quiz />
       <VideoOffer />
       <Doctor />
       <FinalCTA />

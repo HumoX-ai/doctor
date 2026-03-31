@@ -4,21 +4,21 @@ import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  subsets: ["latin", "cyrillic"],
 });
 
 export const metadata: Metadata = {
-  title: "Doktor Timur — Ozish: Amerika Formulasi",
+  title: "168 кг -> 89 кг | Ҳар ойда 10 кг",
   description:
-    "Semizlik — irodasizlik emas. Bu tibbiy kasallik. Harvard Medical School sertifikati bilan Doktor Timur Akbarov, M.D. dan bepul videoni ko'ring.",
+    "Агар 5-50 кг орасида ортиқча вазнга эга бўлсангиз, бепул видеони кўринг. Ҳар ойда 10 кг вазн ташлаш ва натижани бир умрга сақлаш формуласи.",
   openGraph: {
-    title: "Doktor Timur — Ozish: Amerika Formulasi",
-    description: "168 kg → 89 kg. 5 oyda. Dori yo'q. Dieta yo'q. Haqiqiy bemor natijasi.",
+    title: "168 кг -> 89 кг. 5 ойда. Дорисиз.",
+    description: "Ҳар ойда 10 кг. Қайта семирмасдан. Бир умрга.",
     images: ["/doctor.jpeg"],
   },
 };
@@ -30,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="uz"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
       suppressHydrationWarning
     >
